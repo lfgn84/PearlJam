@@ -1,0 +1,127 @@
+@media screen and (min-width: 1025px){
+body{
+    background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.grid-container{
+
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-auto-rows: 80px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+ribb{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: black;
+    font-size: 30px;
+    text-align: right;
+    margin: -10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+div{
+    padding-top: 20px;
+    padding-right: 5px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+    .grid-container{
+
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+        grid-auto-rows: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    ribb{
+        grid-column: 1/5;
+        grid-row: 1/2;
+        background-color: black;
+        font-size: 30px;
+        text-align: right;
+        margin: -10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    div{
+        padding-top: 20px;
+        padding-right: 5px;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    footer{
+        grid-column: 1/5;
+        grid-row: 7/10;
+        background-color: black;
+        margin: -80px;
+
+    }
+
+}
+@media  screen and (min-width: 365px) and (max-width: 480px){
+    body{
+        background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+        background-size: 110% 65%;
+        background-repeat: no-repeat;
+    }
+    .grid-container{
+
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+        grid-auto-rows: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    ribb{
+        grid-column: 1/5;
+        grid-row: 1/2;
+        background-color: black;
+        font-size: 30px;
+        text-align: right;
+        margin: -10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    div{
+        padding-top: 20px;
+        padding-right: 5px;
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    footer{
+        grid-column: 1/5;
+        grid-row: 7/10;
+        background-color: black;
+        margin: -10px;
+
+    }
+
+}

@@ -1,0 +1,571 @@
+@media screen and (min-width: 1025px){
+body{
+background-color: white;
+}
+.grid-container{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 80px;
+    grid-row-gap: 0;
+}
+header.head{
+    grid-column: 1 / 5;
+    grid-row: 1 / 8;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc14-adj00827-adj-a.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db34265bb263622913569edf61767ba2");
+    background-repeat: no-repeat;
+    background-size: 100% 89%;
+    font-family: 'Anton',sans-serif;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 80px;
+}
+div.headOffer{
+    background-color: #1e1b1e;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    font-size: 40px;
+    word-spacing: 10px;
+    text-align: center;
+    padding:10px
+}
+div.headLink{
+    background-color: red;
+    grid-column: 4/5;
+    grid-row: 1/1;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+div.headText{
+    grid-column: 2/4;
+    grid-row: 3/3;
+    font-size: 160px;
+    text-align: center;
+    letter-spacing: 0.01px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+menu{
+    grid-column: 1 / 5;
+    grid-row: 7 / 9 ;
+    background-color:#040422;
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    grid-template-rows: repeat(3,33%);
+    margin-bottom: -5px;
+}
+.pearl{
+    font-family: 'Anton',sans-serif;
+    font-size: 35px;
+    padding-top: 25px;
+    text-align: center;
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+    color: red;
+}
+.popular{
+    grid-column:2 / 2;
+    grid-row: 2/2;
+    font-size: 19px;
+    font-family: 'Barlow Condensed',sans-serif;
+    color: white;
+}
+.other{
+    grid-column:3 / 3;
+    grid-row: 2/2;
+    font-size: 19px;
+    font-family: 'Barlow Condensed',sans-serif;
+    color: white;
+}
+.contact{
+    grid-column:4/ 4;
+    grid-row: 2/2;
+    font-size: 19px;
+    font-family: 'Barlow Condensed',sans-serif;
+    color: white;
+}
+ribb{
+    grid-column: 1/ 5;
+    grid-row: 9/9;
+    background-color: red;
+}
+pic{
+    grid-column: 1/5;
+    grid-row: 10/14;
+}
+pic img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    grid-column: 1 / 5;
+    grid-row: 15 / 15;
+    background-color: white;
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Fjalla One',sans-serif;
+}
+main{
+    grid-column: 1 / 5;
+    grid-row: 16 / 24;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-column-gap: 8px;
+    background-color: white;
+}
+#yieldAl{
+color: black;
+    border-bottom: 10px;
+}
+div.gallery {
+    padding-top: 20px;
+    margin: 10px;
+    float:left;
+    width:92%;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+header.yeld{
+    margin-bottom: 30px;
+}
+header.ten{
+    margin-bottom: 30px;
+}header.avocado{
+     margin-bottom: 30px;
+ }
+sign{
+    grid-column: 1/5;
+    padding-right: 100px;
+    grid-row: 24/24;
+    font-family: 'Anton',sans-serif;
+    font-size: 30px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+footer{
+    grid-column: 1 / 5;
+    grid-row: 25 / 35;
+    background-image: url("https://www.catman.global/wp-content/uploads/2015/08/Chalkboard-Background-xs.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.otherList{
+    padding-left: 200px;
+    text-align: left;
+    font-family:'Barlow Condensed',sans-serif;
+    font-size: 80px;
+    color: white;
+}
+#footsign{
+    grid-column: 5/5;
+    grid-row: 33/33;
+    font-family: 'Anton',sans-serif;
+    text-align: right;
+    color: red;
+    font-size: 30px;
+    padding-right: 80px;
+}
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: white;
+    }
+    .grid-container{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 80px;
+        grid-row-gap: 0;
+    }
+    header.head{
+        grid-column: 1 / 5;
+        grid-row: 1 / 8;
+        background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc14-adj00827-adj-a.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db34265bb263622913569edf61767ba2");
+        background-repeat: no-repeat;
+        background-size: 100% 89%;
+        font-family: 'Anton',sans-serif;
+        text-align: center;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 80px;
+    }
+    div.headOffer{
+        background-color: #1e1b1e;
+        grid-column: 1/4;
+        grid-row: 1/1;
+        font-size: 22px;
+        word-spacing: 10px;
+        text-align: center;
+        padding:10px
+    }
+    div.headLink{
+        background-color: red;
+        grid-column: 4/5;
+        grid-row: 1/1;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        padding: 10px;
+    }
+    div.headText{
+        grid-column: 2/4;
+        grid-row: 3/3;
+        font-size: 80px;
+        text-align: center;
+        letter-spacing: 0.01px;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    menu{
+        grid-column: 1 / 5;
+        grid-row: 7 / 9 ;
+        background-color:#040422;
+        display: grid;
+        grid-template-columns:repeat(4,25%);
+        grid-template-rows: repeat(3,33%);
+        margin-bottom: -5px;
+    }
+    .pearl{
+        font-family: 'Anton',sans-serif;
+        font-size: 35px;
+        padding-top: 25px;
+        padding-right: 10px;
+        text-align: center;
+        grid-column: 1 / 1;
+        grid-row: 1 / 3;
+        color: red;
+    }
+    .popular{
+        grid-column:2 / 2;
+        grid-row: 2/2;
+        font-size: 19px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+    }
+    .other{
+        grid-column:3 / 3;
+        grid-row: 2/2;
+        font-size: 19px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+    }
+    .contact{
+        grid-column:4/ 4;
+        grid-row: 2/2;
+        font-size: 19px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+    }
+    ribb{
+        grid-column: 1/ 5;
+        grid-row: 9/9;
+        background-color: red;
+    }
+    pic{
+        grid-column: 1/5;
+        grid-row: 10/14;
+    }
+    pic img{
+        width: 100%;
+        height: 50%;
+    }
+    nav{
+        grid-column: 1 / 5;
+        grid-row: 12 / 12;
+        background-color: white;
+        text-align: left;
+        font-size: 60px;
+        font-family: 'Fjalla One',sans-serif;
+    }
+    main{
+        grid-column: 1 / 5;
+        grid-row: 13 / 21;
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        grid-column-gap: 8px;
+        background-color: white;
+    }
+    #yieldAl{
+        color: black;
+        border-bottom: 10px;
+    }
+    div.gallery {
+        padding-top: 20px;
+        margin: 10px;
+        float:left;
+        width:92%;
+    }
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    div.desc {
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+    }
+    header.yeld{
+        margin-bottom: 30px;
+    }
+    header.ten{
+        margin-bottom: 30px;
+    }header.avocado{
+         margin-bottom: 30px;
+     }
+    sign{
+        grid-column: 1/5;
+        padding-right: 100px;
+        grid-row: 21/21;
+        font-family: 'Anton',sans-serif;
+        font-size: 30px;
+        text-align: right;
+        background-color: black;
+        color: white;
+    }
+    footer{
+        grid-column: 1 / 5;
+        grid-row: 22 / 32;
+        background-image: url("https://www.catman.global/wp-content/uploads/2015/08/Chalkboard-Background-xs.png");
+        background-repeat: no-repeat;
+        background-size: 120% 100%;
+    }
+    .otherList{
+        padding-left: 200px;
+        text-align: left;
+        font-family:'Barlow Condensed',sans-serif;
+        font-size: 80px;
+        color: white;
+    }
+    #footsign{
+        grid-column: 5/5;
+        grid-row: 29/29;
+        font-family: 'Anton',sans-serif;
+        text-align: right;
+        color: red;
+        font-size: 30px;
+        padding-right: 80px;
+        padding-bottom: 80px;
+    }
+}
+@media  screen and (min-width: 365px) and (max-width: 767px){
+    body{
+        background-color: white;
+    }
+    .grid-container{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 80px;
+        grid-row-gap: 0;
+    }
+    header.head{
+        grid-column: 1 / 5;
+        grid-row: 1 / 7;
+        background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc14-adj00827-adj-a.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db34265bb263622913569edf61767ba2");
+        background-repeat: no-repeat;
+        background-size: 100% 89%;
+        font-family: 'Anton',sans-serif;
+        text-align: center;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 60px;
+    }
+    div.headOffer{
+        background-color: #1e1b1e;
+        grid-column: 1/5;
+        grid-row: 1/1;
+        font-size: 19px;
+        text-align: left;
+        word-spacing: 3px;
+        padding:10px
+    }
+    div.headLink{
+        background-color: red;
+        grid-column: 1/5;
+        grid-row: 2/2;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+
+    }
+    div.headText{
+        grid-column: 1/5;
+        grid-row: 4/4;
+        font-size: 60px;
+        text-align: center;
+        padding-left: 32px;
+        padding-top: 40px;
+        letter-spacing: 0.01px;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    menu{
+        grid-column: 1 / 5;
+        grid-row: 6 / 9 ;
+        background-color:#040422;
+        display: grid;
+        grid-template-columns:repeat(4,25%);
+        grid-template-rows: repeat(4,25%);
+        margin-bottom: -5px;
+    }
+    .pearl{
+        font-family: 'Anton',sans-serif;
+        font-size: 20px;
+        text-align: left;
+        grid-column: 1 / 5;
+        grid-row: 1 / 1;
+        color: red;
+    }
+    .popular{
+        grid-column:1 / 5;
+        grid-row: 2/2;
+        font-size: 19px;
+        text-align: right;
+        padding-right: 30px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+    }
+    .other{
+        grid-column:1 / 5;
+        grid-row: 3/3;
+        font-size: 19px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+        text-align: right;
+        padding-right: 30px;
+    }
+    .contact{
+        grid-column:1/ 5;
+        grid-row: 4/4;
+        font-size: 19px;
+        font-family: 'Barlow Condensed',sans-serif;
+        color: white;
+        text-align: right;
+        padding-right: 30px;
+    }
+    ribb{
+        grid-column: 1/ 5;
+        grid-row: 10/10;
+        background-color: red;
+    }
+    pic{
+        grid-column: 1/5;
+        grid-row: 9/13;
+    }
+    pic img{
+        width: 100%;
+        height: 36%;
+    }
+    nav{
+        grid-column: 1 / 5;
+        grid-row: 11 / 11;
+        background-color: white;
+        text-align: left;
+        font-size: 60px;
+        font-family: 'Fjalla One',sans-serif;
+    }
+    main{
+        grid-column: 1 / 5;
+        grid-row: 12 / 30;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-column-gap: 8px;
+        background-color: white;
+    }
+
+    #yieldAl{
+        color: black;
+        border-bottom: 10px;
+    }
+    div.gallery {
+        padding-top: 10px;
+        margin: 5px;
+        float:left;
+        width:92%;
+    }
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    div.desc {
+        padding-top: 30px;
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+    }
+    header.yeld{
+    }
+    header.ten{
+    }header.avocado{
+     }
+    sign{
+        grid-column: 1/5;
+        grid-row: 30/30;
+
+        background-color: black;
+        color: white;
+    }
+    #sign{
+        font-family: 'Anton',sans-serif;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    footer{
+        grid-column: 1 / 5;
+        grid-row: 31 / 38;
+        background-image: url("https://www.catman.global/wp-content/uploads/2015/08/Chalkboard-Background-xs.png");
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+    }
+    .otherList{
+        grid-column: 1/2;
+        text-align: left;
+        font-family:'Barlow Condensed',sans-serif;
+        font-size: 50px;
+        color: white;
+    }
+    #footsign{
+        grid-column: 5/5;
+        grid-row: 48/48;
+        font-family: 'Anton',sans-serif;
+        text-align: right;
+        color: red;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+}

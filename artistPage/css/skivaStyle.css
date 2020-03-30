@@ -1,0 +1,403 @@
+@media screen and (min-width: 1025px){
+body{
+background-color: white;
+}
+.grid-container{
+    max-width:100%;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: 80px;
+}
+header{
+    grid-column:1/11;
+    grid-row: 1/4;
+    font-family:'Anton',sans-serif ;
+    font-size: 130px;
+    text-align: center;
+    background-color: #1e1b1e;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#sign{
+    grid-column: 10/11;
+    grid-row: 3/3;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: red;
+}
+div.videoLink{
+    padding-top: 14px;
+    padding-left: 120px}
+a{
+    font-family: 'Anton',sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 38px;
+}
+ribb {
+    grid-column: 1/11;
+    grid-row: 4/5;
+    background-color: #040422;
+}
+div.pic{
+    grid-column: 1/5;
+    grid-row: 6/12;
+    font-family:'Barlow Condensed',sans-serif;
+    width: 600px;
+    height: 450px;
+    border-width: 2px;
+    border-color: #1e1b1e;
+}
+div img{
+    width: 130%;
+    height: 120%;
+    padding-right: 100px;
+    border-width: 2px;
+    border-color: #1e1b1e;
+    border-radius: 2px;
+}
+.desc{
+    grid-column: 1/6;
+    grid-row: 13/20;
+    display: grid;
+    padding-left: 30px;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 80px;
+    text-align: left;
+    font-family: 'Barlow Condensed',sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.t1{
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+.t2{
+    grid-column: 1/7;
+    grid-row: 3/4
+}
+.t3{
+    grid-column: 1/7;
+    grid-row: 5/6;
+}
+#output{
+    grid-column: 6/10;
+    grid-row: 8/12;
+    text-align: right;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 50px;
+}
+h1{
+    grid-column: 6/10;
+    grid-row: 5/7;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 100px;
+    text-align: right;
+    color: black;
+}
+.year{
+    font-family:'Anton',sans-serif;
+    grid-column: 1/4;
+    grid-row: 21/24;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 34px;
+    font-size: 405px;
+    color: red;
+}
+footer{
+    grid-column:6 / 11;
+    grid-row: 23/26;
+    padding-left: 70px;
+}
+#footsign{
+    grid-column: 1/11;
+    grid-row: 30/31;
+    font-family: 'Anton',sans-serif;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    padding-right: 80px;
+    padding-top: 32px;
+    background-color: black;
+}
+.video {
+    margin: 0 auto;
+    border: 25px #1e1b1e;
+}
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: white;
+    }
+    .grid-container{
+        max-width:100%;
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-auto-rows: 80px;
+    }
+    header{
+        grid-column:1/11;
+        grid-row: 1/3;
+        font-family:'Anton',sans-serif ;
+        font-size: 100px;
+        text-align: center;
+        background-color: #1e1b1e;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    #sign{
+        padding-top: 40px;
+        grid-column: 10/11;
+        grid-row: 2/2;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+        color: red;
+    }
+    div.videoLink{
+        padding-top: 14px;
+        padding-left: 60px;
+        text-align: left;
+    }
+    a{
+        font-family: 'Anton',sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 38px;
+    }
+    ribb {
+        grid-column: 1/11;
+        grid-row: 3/4;
+        background-color: #040422;
+    }
+    div.pic{
+        grid-column: 1/5;
+        grid-row: 4/10;
+        font-family:'Barlow Condensed',sans-serif;
+        width: 410px;
+        height: 400px;
+    }
+    div img{
+        width: 130%;
+        height: 120%;
+        padding-right: 100px;
+        border-width: 10px;
+        border-color: #1e1b1e;
+    }
+    .desc{
+        grid-column: 1/6;
+        grid-row: 10/17;
+        display: grid;
+        padding-left: 30px;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 80px;
+        text-align: left;
+        font-family: 'Barlow Condensed',sans-serif;
+        font-size: 26px;
+        color: black;
+    }
+    .t1{
+        grid-column: 1/7;
+        grid-row: 1/1;
+    }
+    .t2{
+        grid-column: 1/7;
+        grid-row: 4/4
+    }
+    .t3{
+        grid-column: 1/7;
+        grid-row: 7/7;
+    }
+    #output{
+        grid-column: 7/11;
+        grid-row: 8/12;
+        text-align: right;
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 45px;
+        padding-right: 50px;
+    }
+    h1{
+        grid-column: 6/10;
+        grid-row: 4/5;
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 100px;
+        text-align: right;
+        color: black;
+    }
+    .year{
+        font-family:'Anton',sans-serif;
+        grid-column: 1/4;
+        grid-row: 21/24;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 34px;
+        font-size: 253px;
+        color: red;
+    }
+    footer{
+        padding-top: 15px;
+        grid-column:6 / 9;
+        grid-row: 22/25;
+        padding-left: 50px;
+    }
+    #footsign{
+        grid-column: 1/11;
+        grid-row: 27/28;
+        font-family: 'Anton',sans-serif;
+        text-align: right;
+        color: white;
+        font-size: 30px;
+        padding-right: 80px;
+        padding-top: 32px;
+        background-color: black;
+    }
+    .video {
+        width: 400px;
+        height: 260px;
+        margin: 0 auto;
+        border: 25px #1e1b1e;
+    }
+}
+@media  screen and (min-width: 365px ) and (max-width: 767px){
+    body{
+    background-color: white;
+}
+    .grid-container{
+        max-width:100%;
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-auto-rows: 80px;
+    }
+    header{
+        grid-column:1/11;
+        grid-row: 1/3;
+        font-family:'Anton',sans-serif ;
+        font-size: 80px;
+        text-align: center;
+        background-color: #1e1b1e;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    #sign{
+        padding-top: 30px;
+        padding-right: 20px;
+        grid-column: 9/11;
+        grid-row: 2/2;
+        font-family: 'Anton', sans-serif;
+        font-size: 16px;
+        color: red;
+    }
+    div.videoLink{
+        padding-top: 14px;
+        padding-left: 10px;
+        text-align: left;
+
+    }
+    a{
+        font-family: 'Anton',sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+    ribb {
+        grid-column: 1/11;
+        grid-row: 3/4;
+        background-color: #040422;
+    }
+    div.pic{
+        padding-top: 10px;
+        grid-column: 1/11;
+        grid-row: 4/10;
+        font-family:'Barlow Condensed',sans-serif;
+        width: 100%;
+        height: auto;
+    }
+    div img{
+        width: 100%;
+        height: 60%;
+        padding-right: 100px;
+        border-width: 10px;
+        border-color: #1e1b1e;
+    }
+    .desc{
+        grid-column: 1/11;
+        grid-row: 8/15;
+        display: grid;
+        padding-left: 30px;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 80px;
+        text-align: left;
+        font-family: 'Barlow Condensed',sans-serif;
+        font-size: 26px;
+        color: black;
+    }
+    .t1{
+        grid-column: 1/7;
+        grid-row: 1/1;
+    }
+    .t2{
+        grid-column: 1/7;
+        grid-row: 4/4
+    }
+    .t3{
+        grid-column: 1/7;
+        grid-row: 7/7;
+    }
+    #output{
+        grid-column: 1/11;
+        grid-row: 22/24;
+        text-align: left;
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 45px;
+        padding-right: 50px;
+    }
+    h1{
+        grid-column: 1/11;
+        grid-row: 20/20;
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 100px;
+        text-align: left;
+        color: black;
+    }
+    .year{
+        font-family:'Anton',sans-serif;
+        grid-column: 1/11;
+        grid-row: 32/33;
+        text-align: center;
+        padding-left: 5px;
+        padding-top: 34px;
+        font-size: 240px;
+        color: red;
+    }
+    #video{
+        padding-top: 15px;
+        grid-column:1 / 11;
+        grid-row: 37/40;
+
+    }
+    #footsign{
+        grid-column: 1/11;
+        grid-row: 41/41;
+        font-family: 'Anton',sans-serif;
+        text-align: right;
+        color: white;
+        font-size: 30px;
+        padding-right: 20px;
+        padding-top: 32px;
+        background-color: black;
+    }
+    .video {
+        grid-column: 1/11;
+        width: 100%;
+        height: 100%;
+    }
+}
