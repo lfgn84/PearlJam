@@ -1,6 +1,6 @@
 @media screen and (min-width: 1025px){
 body{
-    background-image: url("https://townsquare.media/site/366/files/2019/12/pearl-jam-1992.jpg?w=980&q=75");
+    background-image: url("https://raw.githubusercontent.com/lfgn84/PearlJam/master/artistPage/img/back.jpg");
     background-size: 100% 130%;
     background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@ a{
 }
 @media  screen and (min-width: 768px) and (max-width: 1024px){
     body{
-        background-image: url("https://townsquare.media/site/366/files/2019/12/pearl-jam-1992.jpg?w=980&q=75");
+        background-image: url("https://raw.githubusercontent.com/lfgn84/PearlJam/master/artistPage/img/back.jpg");
         background-size: 100% 120%;
         background-repeat: no-repeat;
     }
@@ -161,7 +161,7 @@ a{
 }
 @media  screen and (min-width: 365px) and (max-width: 767px){
     body{
-        background-image: url("https://townsquare.media/site/366/files/2019/12/pearl-jam-1992.jpg?w=980&q=75");
+        background-image: url("https://raw.githubusercontent.com/lfgn84/PearlJam/master/artistPage/img/back.jpg");
         background-size: 104% 113%;
         background-repeat: no-repeat;
     }
