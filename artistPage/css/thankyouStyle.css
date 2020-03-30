@@ -1,6 +1,6 @@
 @media screen and (min-width: 1025px){
 body{
-    background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+    background-image: url("https://downloads-pearljam-com.s3.amazonaws.com/img/news-hero/15298735768902b97a0cdd7e565971288bd812b3aa.JPG");
     background-size: 110%;
     background-repeat: no-repeat;
 }
@@ -37,7 +37,7 @@ div{
 }
 @media  screen and (min-width: 768px) and (max-width: 1024px){
     body{
-        background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+        background-image: url("https://downloads-pearljam-com.s3.amazonaws.com/img/news-hero/15298735768902b97a0cdd7e565971288bd812b3aa.JPG");
         background-size: 110%;
         background-repeat: no-repeat;
     }
@@ -80,9 +80,9 @@ div{
     }
 
 }
-@media  screen and (min-width: 365px) and (max-width: 480px){
+@media  screen and (min-width: 365px) and (max-width: 767px){
     body{
-        background-image: url("/WEBBAPP/PRACTICE/HtmlCss/artistPage/img/backy.jpg");
+        background-image: url("https://downloads-pearljam-com.s3.amazonaws.com/img/news-hero/15298735768902b97a0cdd7e565971288bd812b3aa.JPG");
         background-size: 110% 65%;
         background-repeat: no-repeat;
     }
